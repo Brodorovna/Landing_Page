@@ -1,0 +1,42 @@
+body{
+    background-image: url("BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+}
+
+.top-menu {
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin:38px 144px;
+    align-items: center;
+    padding: 0.75em 1.5em;
+    position: relative;
+  }
+  
+  .top-menu nav {
+    display: flex;
+  }
+  
+  .top-menu a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .top-menu nav a {
+    color: #fff;
+    margin-left:27px;
+    font-size: 12px;
+    line-height: 22px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .top-menu nav img {
+      vertical-align: middle;
+      margin-right:3px;
+  }
