@@ -4,11 +4,13 @@ body{
     background-size: cover;
     font-family: Roboto, sans-serif;
     font-style: normal;
+    height: 100%;
 }
 
 .top-menu {
     font-weight: 500;
     font-size: 14px;
+    font-weight: 400;
     display: flex;
     justify-content: space-between;
     margin:38px 144px;
@@ -62,6 +64,11 @@ body{
     top: -39px;
   }
 
+  .form-block {
+    position: relative;
+    top: -39px;
+  }
+
   h4 {
     margin: 0;
     text-align:center;
@@ -78,3 +85,46 @@ color: #FFFFFF;
     justify-content: space-between;
     padding: 36px 94px 38px 94px;
   }
+
+  h5{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;   
+    color: rgba(0, 0, 0, 0.87);
+    text-align: center;
+    margin:33px 0 23px 0;
+  }
+
+.form-block form {
+  width:100%;
+}
+
+.white-block form span {
+  display: flex;
+  align-items: center;
+  margin: 10px 29px 37px 26px;
+}
+
+  .white-block form span input {
+    width: 269px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #D2D2D2;
+    margin-left: 15px;
+  }
+
+  .white-block form span input:focus {
+  outline: none;
+  }
+
+  .white-block form button {
+    border:none;
+    outline: none;
+    font-size: 14px;
+color: #9C27B0;
+background: none;
+text-transform: uppercase;
+text-align: center;
+display: block;
+margin: 0 auto 0 auto;
+  } 
